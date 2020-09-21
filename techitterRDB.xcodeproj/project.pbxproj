@@ -15,6 +15,7 @@
 		D1E96010251891690030BF07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1E9600E251891690030BF07 /* LaunchScreen.storyboard */; };
 		D1E9601B251891690030BF07 /* techitterRDBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E9601A251891690030BF07 /* techitterRDBTests.swift */; };
 		D1E96026251891690030BF07 /* techitterRDBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E96025251891690030BF07 /* techitterRDBUITests.swift */; };
+		D1E96036251901BC0030BF07 /* TweetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E96035251901BC0030BF07 /* TweetViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D1E96021251891690030BF07 /* techitterRDBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = techitterRDBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1E96025251891690030BF07 /* techitterRDBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = techitterRDBUITests.swift; sourceTree = "<group>"; };
 		D1E96027251891690030BF07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1E96035251901BC0030BF07 /* TweetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				D1E9600C251891690030BF07 /* Assets.xcassets */,
 				D1E9600E251891690030BF07 /* LaunchScreen.storyboard */,
 				D1E96011251891690030BF07 /* Info.plist */,
+				D1E96035251901BC0030BF07 /* TweetViewController.swift */,
 			);
 			path = techitterRDB;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1E96036251901BC0030BF07 /* TweetViewController.swift in Sources */,
 				D1E96008251891630030BF07 /* ViewController.swift in Sources */,
 				D1E96004251891630030BF07 /* AppDelegate.swift in Sources */,
 				D1E96006251891630030BF07 /* SceneDelegate.swift in Sources */,
