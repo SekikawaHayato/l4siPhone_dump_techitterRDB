@@ -8,17 +8,31 @@
 
 import UIKit
 
-class TweetViewController: UIViewController {
+class TweetViewController: UIViewController, UITableViewDataSource{
+
 
     @IBOutlet var name: String!
+    @IBOutlet var table: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        table.dataSource = self
         // Do any additional setup after loading the view.
     }
     
 
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 10
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! MyTableViewCell
+        cell.textsLabel?.text = "テスト"
+        
+        return cell
+    }
+    
     /*
     // MARK: - Navigation
 

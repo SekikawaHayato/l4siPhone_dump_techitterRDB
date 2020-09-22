@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D1D0DDE8251A5A0700C0F17D /* MyCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D0DDE7251A5A0700C0F17D /* MyCellTableViewCell.swift */; };
 		D1E96004251891630030BF07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E96003251891630030BF07 /* AppDelegate.swift */; };
 		D1E96006251891630030BF07 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E96005251891630030BF07 /* SceneDelegate.swift */; };
 		D1E96008251891630030BF07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E96007251891630030BF07 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D1D0DDE7251A5A0700C0F17D /* MyCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCellTableViewCell.swift; sourceTree = "<group>"; };
 		D1E96000251891630030BF07 /* techitterRDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = techitterRDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1E96003251891630030BF07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1E96005251891630030BF07 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				D1E9600E251891690030BF07 /* LaunchScreen.storyboard */,
 				D1E96011251891690030BF07 /* Info.plist */,
 				D1E96035251901BC0030BF07 /* TweetViewController.swift */,
+				D1D0DDE7251A5A0700C0F17D /* MyCellTableViewCell.swift */,
 			);
 			path = techitterRDB;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 				D1E96036251901BC0030BF07 /* TweetViewController.swift in Sources */,
 				D1E96008251891630030BF07 /* ViewController.swift in Sources */,
 				D1E96004251891630030BF07 /* AppDelegate.swift in Sources */,
+				D1D0DDE8251A5A0700C0F17D /* MyCellTableViewCell.swift in Sources */,
 				D1E96006251891630030BF07 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
