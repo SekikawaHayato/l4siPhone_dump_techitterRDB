@@ -26,7 +26,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="toTwiite" destination="BYZ-38-t0r" eventType="touchUpInside" id="7EP-Bh-d6i"/>
+                                    <action selector="toTweet" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jdy-9u-zsd"/>
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RoG-jr-DjT">
@@ -96,7 +96,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="toTwiite" destination="BYZ-38-t0r" eventType="touchUpInside" id="bLL-NF-79j"/>
+                                    <action selector="tweetButton" destination="xzq-xl-kbt" eventType="touchUpInside" id="cBa-VS-Dls"/>
                                 </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Xxc-RB-ELP">
@@ -158,7 +158,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="gMI-1V-9cd"/>
                     <connections>
+                        <outlet property="nameLabel" destination="atx-kM-u6W" id="spB-RU-S9M"/>
                         <outlet property="table" destination="Xxc-RB-ELP" id="BtU-Se-i6d"/>
+                        <outlet property="textField" destination="c7M-XJ-RvE" id="ro6-yK-bSt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dq3-pR-YLw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

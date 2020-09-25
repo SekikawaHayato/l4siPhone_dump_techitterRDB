@@ -7,32 +7,51 @@
 //
 
 import UIKit
+import RealmSwift
 
 class TweetViewController: UIViewController, UITableViewDataSource{
 
-
+    
     @IBOutlet var name: String!
     @IBOutlet var table: UITableView!
+    @IBOutlet var nameLabel: UILabel!
+    @IBOutlet var textField: UITextField!
+    
+    let realm = try! Realm()
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         table.dataSource = self
         // Do any additional setup after loading the view.
+        nameLabel.text = "name : "+name
     }
     
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return realm.objects(Tweet.self).count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! MyTableViewCell
-        cell.textsLabel?.text = "テスト"
+        cell.nameLabel?.text = realm.objects(Tweet.self)[indexPath.row].name
+        cell.textsLabel?.text = realm.objects(Tweet.self)[indexPath.row].text
         
         return cell
     }
     
+    @IBAction func tweetButton(){
+        if textField.text != ""{
+            let tweet = Tweet()
+            tweet.name = self.name
+            tweet.text = textField.text!
+            try! realm.write(){
+                realm.add(tweet)
+            }
+            textField.text = ""
+            table.reloadData()
+        }
+    }
     /*
     // MARK: - Navigation
 

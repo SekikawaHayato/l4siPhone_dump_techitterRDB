@@ -7,8 +7,11 @@
 //
 
 import UIKit
+import RealmSwift
 
 class ViewController: UIViewController ,UITextFieldDelegate{
+    
+    let realm = try! Realm()
     
     @IBOutlet var nameTextField: UITextField!
 
@@ -23,8 +26,11 @@ class ViewController: UIViewController ,UITextFieldDelegate{
         return true
     }
     
-    @IBAction func toTwiite(){
-        performSegue(withIdentifier: "toTweet", sender: nameTextField.text)
+    @IBAction func toTweet(){
+        if nameTextField.text != "" {
+            checkName(nameText: nameTextField.text)
+            performSegue(withIdentifier: "toTweet", sender: nameTextField.text)
+        }
     }
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -33,5 +39,16 @@ class ViewController: UIViewController ,UITextFieldDelegate{
                twiiteViewController.name = sender as? String
            }
        }
+    
+    func checkName(nameText:String?){
+        if realm.objects(User.self).filter("name == " + nameText!).count == 0  {
+            let user = User()
+            user.name = nameText!
+            
+            try! realm.write(){
+                realm.add(user)
+            }
+        }
+    }
 }
 

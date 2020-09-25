@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		77A8610CE274989937409A9A /* Pods_techitterRDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D00518CF4EAC5A0BE115AD7 /* Pods_techitterRDB.framework */; };
+		B39F5EFBF8FB51C7391D0A31 /* Pods_techitterRDB_techitterRDBUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C823A1F7FB24ECD658D92F01 /* Pods_techitterRDB_techitterRDBUITests.framework */; };
+		D1070F1D251DB81A00B4BA9F /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1070F1C251DB81A00B4BA9F /* User.swift */; };
 		D1D0DDE8251A5A0700C0F17D /* MyCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D0DDE7251A5A0700C0F17D /* MyCellTableViewCell.swift */; };
 		D1E96004251891630030BF07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E96003251891630030BF07 /* AppDelegate.swift */; };
 		D1E96006251891630030BF07 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E96005251891630030BF07 /* SceneDelegate.swift */; };
@@ -17,6 +20,7 @@
 		D1E9601B251891690030BF07 /* techitterRDBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E9601A251891690030BF07 /* techitterRDBTests.swift */; };
 		D1E96026251891690030BF07 /* techitterRDBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E96025251891690030BF07 /* techitterRDBUITests.swift */; };
 		D1E96036251901BC0030BF07 /* TweetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E96035251901BC0030BF07 /* TweetViewController.swift */; };
+		D45AE22484F02336032F1785 /* Pods_techitterRDBTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BD6CDC687BDA2F158CAD498 /* Pods_techitterRDBTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2DB85055D99B7AF68D1C4288 /* Pods-techitterRDBTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-techitterRDBTests.debug.xcconfig"; path = "Target Support Files/Pods-techitterRDBTests/Pods-techitterRDBTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3BD6CDC687BDA2F158CAD498 /* Pods_techitterRDBTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_techitterRDBTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F12656A216BEC70FE1D9BF9 /* Pods-techitterRDBTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-techitterRDBTests.release.xcconfig"; path = "Target Support Files/Pods-techitterRDBTests/Pods-techitterRDBTests.release.xcconfig"; sourceTree = "<group>"; };
+		526BB654092F733B087DAAD0 /* Pods-techitterRDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-techitterRDB.release.xcconfig"; path = "Target Support Files/Pods-techitterRDB/Pods-techitterRDB.release.xcconfig"; sourceTree = "<group>"; };
+		7D00518CF4EAC5A0BE115AD7 /* Pods_techitterRDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_techitterRDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A93BA5FA0E32A776E280EA0D /* Pods-techitterRDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-techitterRDB.debug.xcconfig"; path = "Target Support Files/Pods-techitterRDB/Pods-techitterRDB.debug.xcconfig"; sourceTree = "<group>"; };
+		B46B746D36C287D07E01F463 /* Pods-techitterRDB-techitterRDBUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-techitterRDB-techitterRDBUITests.release.xcconfig"; path = "Target Support Files/Pods-techitterRDB-techitterRDBUITests/Pods-techitterRDB-techitterRDBUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C823A1F7FB24ECD658D92F01 /* Pods_techitterRDB_techitterRDBUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_techitterRDB_techitterRDBUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1070F1C251DB81A00B4BA9F /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		D1D0DDE7251A5A0700C0F17D /* MyCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCellTableViewCell.swift; sourceTree = "<group>"; };
 		D1E96000251891630030BF07 /* techitterRDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = techitterRDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1E96003251891630030BF07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +66,7 @@
 		D1E96025251891690030BF07 /* techitterRDBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = techitterRDBUITests.swift; sourceTree = "<group>"; };
 		D1E96027251891690030BF07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1E96035251901BC0030BF07 /* TweetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetViewController.swift; sourceTree = "<group>"; };
+		D62678187D8CBD8C029C3529 /* Pods-techitterRDB-techitterRDBUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-techitterRDB-techitterRDBUITests.debug.xcconfig"; path = "Target Support Files/Pods-techitterRDB-techitterRDBUITests/Pods-techitterRDB-techitterRDBUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				77A8610CE274989937409A9A /* Pods_techitterRDB.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D45AE22484F02336032F1785 /* Pods_techitterRDBTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +90,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B39F5EFBF8FB51C7391D0A31 /* Pods_techitterRDB_techitterRDBUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C477104D94810C699BF886D8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A93BA5FA0E32A776E280EA0D /* Pods-techitterRDB.debug.xcconfig */,
+				526BB654092F733B087DAAD0 /* Pods-techitterRDB.release.xcconfig */,
+				D62678187D8CBD8C029C3529 /* Pods-techitterRDB-techitterRDBUITests.debug.xcconfig */,
+				B46B746D36C287D07E01F463 /* Pods-techitterRDB-techitterRDBUITests.release.xcconfig */,
+				2DB85055D99B7AF68D1C4288 /* Pods-techitterRDBTests.debug.xcconfig */,
+				3F12656A216BEC70FE1D9BF9 /* Pods-techitterRDBTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D100B295239A13859043CD89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D00518CF4EAC5A0BE115AD7 /* Pods_techitterRDB.framework */,
+				C823A1F7FB24ECD658D92F01 /* Pods_techitterRDB_techitterRDBUITests.framework */,
+				3BD6CDC687BDA2F158CAD498 /* Pods_techitterRDBTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D1E95FF7251891620030BF07 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +127,8 @@
 				D1E96019251891690030BF07 /* techitterRDBTests */,
 				D1E96024251891690030BF07 /* techitterRDBUITests */,
 				D1E96001251891630030BF07 /* Products */,
+				C477104D94810C699BF886D8 /* Pods */,
+				D100B295239A13859043CD89 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +154,7 @@
 				D1E96011251891690030BF07 /* Info.plist */,
 				D1E96035251901BC0030BF07 /* TweetViewController.swift */,
 				D1D0DDE7251A5A0700C0F17D /* MyCellTableViewCell.swift */,
+				D1070F1C251DB81A00B4BA9F /* User.swift */,
 			);
 			path = techitterRDB;
 			sourceTree = "<group>";
@@ -141,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1E9602A251891690030BF07 /* Build configuration list for PBXNativeTarget "techitterRDB" */;
 			buildPhases = (
+				B822A459ECA4098825949F23 /* [CP] Check Pods Manifest.lock */,
 				D1E95FFC251891630030BF07 /* Sources */,
 				D1E95FFD251891630030BF07 /* Frameworks */,
 				D1E95FFE251891630030BF07 /* Resources */,
+				95130D87D7B95384C22D0A4E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -158,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1E9602D251891690030BF07 /* Build configuration list for PBXNativeTarget "techitterRDBTests" */;
 			buildPhases = (
+				CB48A77DB659DB1E8506677B /* [CP] Check Pods Manifest.lock */,
 				D1E96012251891690030BF07 /* Sources */,
 				D1E96013251891690030BF07 /* Frameworks */,
 				D1E96014251891690030BF07 /* Resources */,
@@ -176,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1E96030251891690030BF07 /* Build configuration list for PBXNativeTarget "techitterRDBUITests" */;
 			buildPhases = (
+				4734EF26501EB2A92E938A9A /* [CP] Check Pods Manifest.lock */,
 				D1E9601D251891690030BF07 /* Sources */,
 				D1E9601E251891690030BF07 /* Frameworks */,
 				D1E9601F251891690030BF07 /* Resources */,
+				24C6F0793A5D1F4A8E98082E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -260,6 +308,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		24C6F0793A5D1F4A8E98082E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-techitterRDB-techitterRDBUITests/Pods-techitterRDB-techitterRDBUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-techitterRDB-techitterRDBUITests/Pods-techitterRDB-techitterRDBUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-techitterRDB-techitterRDBUITests/Pods-techitterRDB-techitterRDBUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4734EF26501EB2A92E938A9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-techitterRDB-techitterRDBUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95130D87D7B95384C22D0A4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-techitterRDB/Pods-techitterRDB-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-techitterRDB/Pods-techitterRDB-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-techitterRDB/Pods-techitterRDB-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B822A459ECA4098825949F23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-techitterRDB-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB48A77DB659DB1E8506677B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-techitterRDBTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D1E95FFC251891630030BF07 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -267,6 +418,7 @@
 			files = (
 				D1E96036251901BC0030BF07 /* TweetViewController.swift in Sources */,
 				D1E96008251891630030BF07 /* ViewController.swift in Sources */,
+				D1070F1D251DB81A00B4BA9F /* User.swift in Sources */,
 				D1E96004251891630030BF07 /* AppDelegate.swift in Sources */,
 				D1D0DDE8251A5A0700C0F17D /* MyCellTableViewCell.swift in Sources */,
 				D1E96006251891630030BF07 /* SceneDelegate.swift in Sources */,
@@ -440,6 +592,7 @@
 		};
 		D1E9602B251891690030BF07 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A93BA5FA0E32A776E280EA0D /* Pods-techitterRDB.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -457,6 +610,7 @@
 		};
 		D1E9602C251891690030BF07 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 526BB654092F733B087DAAD0 /* Pods-techitterRDB.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -474,6 +628,7 @@
 		};
 		D1E9602E251891690030BF07 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DB85055D99B7AF68D1C4288 /* Pods-techitterRDBTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -495,6 +650,7 @@
 		};
 		D1E9602F251891690030BF07 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F12656A216BEC70FE1D9BF9 /* Pods-techitterRDBTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +672,7 @@
 		};
 		D1E96031251891690030BF07 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D62678187D8CBD8C029C3529 /* Pods-techitterRDB-techitterRDBUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +692,7 @@
 		};
 		D1E96032251891690030BF07 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B46B746D36C287D07E01F463 /* Pods-techitterRDB-techitterRDBUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

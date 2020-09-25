@@ -1,0 +1,6 @@
+framework module Pods_techitterRDB_techitterRDBUITests {
+  umbrella header "Pods-techitterRDB-techitterRDBUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
