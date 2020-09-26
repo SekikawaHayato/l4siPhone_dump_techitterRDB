@@ -41,13 +41,17 @@ class ViewController: UIViewController ,UITextFieldDelegate{
        }
     
     func checkName(nameText:String?){
-        if realm.objects(User.self).filter("name == " + nameText!).count == 0  {
-            let user = User()
-            user.name = nameText!
-            
-            try! realm.write(){
-                realm.add(user)
+        let result = realm.objects(User.self)
+        for i in result {
+            if i.name == nameText{
+                return
             }
+        }
+        let user = User()
+        user.name = nameText!
+            
+        try! realm.write(){
+            realm.add(user)
         }
     }
 }

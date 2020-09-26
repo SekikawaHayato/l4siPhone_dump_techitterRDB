@@ -9,7 +9,7 @@
 import UIKit
 import RealmSwift
 
-class TweetViewController: UIViewController, UITableViewDataSource{
+class TweetViewController: UIViewController, UITableViewDataSource,UITextFieldDelegate{
 
     
     @IBOutlet var name: String!
@@ -25,17 +25,22 @@ class TweetViewController: UIViewController, UITableViewDataSource{
         table.dataSource = self
         // Do any additional setup after loading the view.
         nameLabel.text = "name : "+name
+        textField.delegate = self
     }
-    
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        textField.resignFirstResponder()
+        return true
+    }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return realm.objects(Tweet.self).count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let number = realm.objects(Tweet.self).count - 1
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! MyTableViewCell
-        cell.nameLabel?.text = realm.objects(Tweet.self)[indexPath.row].name
-        cell.textsLabel?.text = realm.objects(Tweet.self)[indexPath.row].text
+        cell.nameLabel?.text = realm.objects(Tweet.self)[number - indexPath.row].name
+        cell.textsLabel?.text = realm.objects(Tweet.self)[number - indexPath.row].text
         
         return cell
     }
